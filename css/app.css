@@ -1,0 +1,91 @@
+/* Thiet lap background cho body (go: bgu)*/
+body{
+    /* background: url('../images/bg.jpg') co nghia la bo qua folder css roi toi thang folder images; */
+    background: url('../images/bg.jpg');
+    background-size: cover;
+    background-position-y: -141px;
+    font-size: 16px;
+}
+
+/* Tao khoi xung quanh (Khung form dang nhap*/
+#wrapper{
+    /* 100vh la do cao toi thiue vua vs man hinh */
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* style cho form-login */
+#form-login{
+    max-width: 400px;
+    /* background: rgba(0,0,0,0.8) -> 0.8 co nghia la do trong suot; */
+    background: rgba(0, 0, 0, 0.8);
+    flex-grow: 1;
+    /* padding-top: 30px 30px 40px-> ben duoi cung; */
+    padding: 30px 30px 40px;
+    /* Tao box shade cho khung form-login */
+    /* box-shadow: 0px 0px 17px 2px-> do net rgba(255, 255, 255, 0.8); */
+    box-shadow: 0px 0px 17px 2px rgba(255, 255, 255, 0.8);
+}
+
+/* Thiet ke cho chu form dang nhap o khung dang nhap */
+.form-heading{
+    font-size: 25px;
+    color: #f5f5f5;
+    text-align: center;
+    margin-bottom: 30px;
+}
+/* Thiet border cho form-group */
+.form-group{
+    border-bottom: 1px solid #ffff;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    display: flex;
+   
+}
+
+/* .form-group i (i la lay ben index phan form-group) */
+.form-group i{
+    color: #ffff;
+    font-size: 14px;
+    padding-top: 0px;
+    padding-right: 10px;
+}
+/* Thiet ke form de dien chu  */
+.form-input{
+    background: transparent;
+    border: 0;
+    outline: 0;
+    color: #f5f5f5;
+    flex-grow: 1;
+}
+
+.form-input::placeholder{
+    color: #f5f5f5;
+}
+
+#eye i{
+    padding-right: 0;
+    cursor: pointer;
+}
+.form-submit{
+    background: transparent;
+    border: 1px solid #f5f5f5;
+    color: #ffff;
+    width: 100%;
+    text-transform: uppercase;
+    padding: 10px 10px;
+    transition: 0.25s ease-in-out;
+    margin-top: 30px;
+}
+
+.form-submit:hover{
+    border: 1px solid #54a0ff;
+}
+
+
+
+
+
+
